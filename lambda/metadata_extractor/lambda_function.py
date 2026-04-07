@@ -50,7 +50,7 @@ def lambda_handler(event, context):
             # todo: extract bucket name from s3_record['s3']['bucket']['name']
             bucket = s3_record['s3']['bucket']['name']
             # todo: extract object key from s3_record['s3']['object']['key']
-            ket = s3_record['s3']['object']['key']
+            key = s3_record['s3']['object']['key']
             # todo: extract file size from s3_record['s3']['object']['size']
             size = s3_record['s3']['object']['size']
             # todo: extract event time from s3_record['eventTime']
